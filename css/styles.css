@@ -108,17 +108,28 @@ ul {
 .info li {
   list-style-type: none;
 }
+.list-link {
+  text-decoration: none;
+  color: #757575;
+}
+.list-link::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  background-size: contain;
+}
+
+.list-link::before {
+  margin-right: 10px;
+  background-image: url(/images/icon-envelope.svg);
+}
 
 .info li:nth-child(2) {
   margin-left: 50px;
 }
 
-.info li a {
-  text-decoration: none;
-  color: #757575;
-}
-
-.info a:hover {
+.list-link:hover {
   color: #2196f3;
 }
 p {
