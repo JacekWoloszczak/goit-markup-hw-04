@@ -128,11 +128,15 @@ ul {
 .list-link-b:hover {
   color: #2196f3;
 }
-
+.icon-envelope {
+  fill: #757575;
+}
 .icon-envelope:hover {
   fill: #2196f3;
 }
-
+.icon-phone {
+  fill: #757575;
+}
 .icon-phone:hover {
   fill: #2196f3;
 }
@@ -545,11 +549,16 @@ button:hover {
   padding-top: 0px;
   padding-bottom: 94px;
 }
-
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
 .social-link {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -560,6 +569,70 @@ button:hover {
   background-color: #2196f3;
 }
 
+.icon-insta {
+  fill: #afb1b8;
+}
+
 .icon-insta:hover {
-  stroke: white;
+  fill: white;
+}
+.our-clients {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head-our-clients {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.clients-images {
+  display: flex;
+  gap: 60px;
+}
+
+.clients-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  text-decoration: none;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+
+.clients-link:hover {
+  border: 1px solid #2196f3;
+}
+.yaco,
+.tagline-here,
+.company,
+.foster,
+.brand,
+.tagline {
+  fill: #afb1b8;
+}
+
+.yaco:hover {
+  fill: #2196f3;
+}
+.tagline-here:hover {
+  fill: #2196f3;
+}
+.company:hover {
+  fill: #2196f3;
+}
+.foster:hover {
+  fill: #2196f3;
+}
+.brand:hover {
+  fill: #2196f3;
+}
+.tagline:hover {
+  fill: #2196f3;
 }
