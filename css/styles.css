@@ -339,7 +339,38 @@ button:hover {
   align-items: center;
   justify-content: center;
 }
+.under-lorem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
+}
 
+.first-lorem,
+.second-lorem,
+.third-lorem,
+.fourth-lorem {
+  background-color: #f5f4fa;
+}
+
+.first-lorem {
+  padding: 25px 0;
+}
+
+.second-lorem {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.third-lorem {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.fourth-lorem {
+  padding: 25px 0;
+}
 .lorem {
   font-style: normal;
   font-weight: 700;
@@ -513,4 +544,22 @@ button:hover {
 .wewnetrzna-sekcja-images {
   padding-top: 0px;
   padding-bottom: 94px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  background-color: #2196f3;
+}
+
+.icon-insta:hover {
+  stroke: white;
 }
