@@ -206,8 +206,8 @@ button:hover {
 }
 .dane-kontaktowe {
   display: flex;
-  margin-top: 20px;
-  margin-bottom: 60px;
+  align-items: center;
+  justify-content: center;
 }
 
 .Footer-staff {
@@ -226,7 +226,9 @@ button:hover {
   color: white;
   list-style-type: none;
 }
-
+.Footer-staff li:nth-child(1) {
+  margin-top: 20px;
+}
 .Footer-staff li:nth-child(2) {
   margin-top: 9px;
 }
@@ -579,7 +581,7 @@ button:hover {
 .our-clients {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .head-our-clients {
@@ -588,18 +590,16 @@ button:hover {
   line-height: 1.16;
   text-align: center;
 }
-
-.clients-images {
+.list-of-clients {
   display: flex;
-  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
-
 .clients-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 170px;
-  height: 92px;
   text-decoration: none;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -635,4 +635,34 @@ button:hover {
 }
 .tagline:hover {
   fill: #2196f3;
+}
+
+.join-us {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-head {
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  margin: 0;
+  margin-top: -85px;
+  margin-left: 171px;
+}
+
+.join-us-element {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footer-list-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 160px;
 }
