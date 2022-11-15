@@ -34,6 +34,7 @@ ul {
   margin-right: -93px;
   flex-basis: 145px;
   height: 31px;
+  margin-left: 93px;
 }
 .logo {
   display: flex;
@@ -107,8 +108,21 @@ ul {
   padding: 0;
 }
 
+.list-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .info .list-info {
   list-style-type: none;
+}
+.list-info-a {
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.list-info-b {
+  margin-left: 10px;
 }
 .list-link-a {
   text-decoration: none;
@@ -117,10 +131,6 @@ ul {
 .list-link-b {
   text-decoration: none;
   color: #757575;
-}
-
-.info li:nth-child(2) {
-  margin-left: 50px;
 }
 
 .list-link-a:hover {
@@ -315,8 +325,9 @@ button:hover {
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 4px;
-  margin-bottom: 20px;
+
   margin-left: 24px;
+  padding-bottom: 20px;
 }
 
 .frame:hover {
@@ -694,4 +705,11 @@ button:hover {
 
 .icon-footer {
   fill: white;
+}
+
+.svg-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
