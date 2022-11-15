@@ -29,7 +29,9 @@ ul {
 }
 .webstudio {
   display: flex;
-
+  align-items: center;
+  justify-content: center;
+  margin-right: -93px;
   flex-basis: 145px;
   height: 31px;
 }
@@ -73,14 +75,14 @@ ul {
   list-style-type: none;
 }
 .menu li:first-child {
-  margin-left: -309px;
+  margin-right: 46px;
 }
 .menu li:nth-child(2) {
-  margin-left: 43px;
+  margin-right: 46px;
 }
 
 .menu li:last-child {
-  margin-left: 43px;
+  margin-right: 46px;
 }
 .menu li a {
   text-decoration: none;
@@ -197,12 +199,16 @@ button:hover {
 .stopa {
   background-color: #2f303a;
 }
-
-.logo-stopka {
+.webstudio-footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+}
+.logo-stopka {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .dane-kontaktowe {
   display: flex;
@@ -213,7 +219,8 @@ button:hover {
 .Footer-staff {
   display: flex;
   flex-direction: column;
-  align-content: space-between;
+  align-items: flex-start;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
@@ -265,7 +272,6 @@ button:hover {
 
 .webstudio-footer {
   display: flex;
-  margin-top: 60px;
 }
 
 .simple-Web-stopa {
@@ -565,6 +571,7 @@ button:hover {
   height: 44px;
   border-radius: 50%;
   text-decoration: none;
+  margin-top: 16px;
 }
 
 .social-link:hover {
@@ -604,6 +611,8 @@ button:hover {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   margin-top: 50px;
+  width: 170px;
+  height: 92px;
 }
 
 .clients-link:hover {
@@ -639,30 +648,50 @@ button:hover {
 
 .join-us {
   display: flex;
-
   align-items: center;
-  justify-content: center;
+
+  padding: 60px 0;
 }
 
 .footer-head {
+  display: flex;
+  align-items: flex-start;
   font-weight: 700;
   font-size: 14px;
   color: white;
-  margin: 0;
-  margin-top: -85px;
-  margin-left: 171px;
+  margin-left: 35px;
+  margin-top: -30px;
 }
 
 .join-us-element {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  padding: 0;
 }
 
 .footer-list-social {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  margin-left: 29px;
+}
+
+.social-link-footer {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  margin-left: 160px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.social-link-footer:hover {
+  background-color: #2196f3;
+}
+
+.icon-footer {
+  fill: white;
 }
