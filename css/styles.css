@@ -30,11 +30,8 @@ ul {
 .webstudio {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-right: -93px;
-  flex-basis: 145px;
+  justify-content: flex-start;
   height: 31px;
-  margin-left: 93px;
 }
 .logo {
   display: flex;
@@ -63,6 +60,7 @@ ul {
 .menu {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   margin: 0;
   padding: 0;
 }
@@ -83,7 +81,6 @@ ul {
 }
 
 .menu li:last-child {
-  margin-right: 46px;
 }
 .menu li a {
   text-decoration: none;
@@ -99,6 +96,7 @@ ul {
 .info {
   display: flex;
   align-items: center;
+  justify-content: center;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -107,22 +105,35 @@ ul {
   margin: 0;
   padding: 0;
 }
-
-.list-info {
+.list-info-b {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.info .list-info {
+.info .li {
   list-style-type: none;
 }
 .list-info-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-right: 30px;
-  margin-left: 10px;
 }
 
-.list-info-b {
-  margin-left: 10px;
+.info .list-info-a:hover a {
+  color: #2196f3;
+}
+
+.info .list-info-a:hover use {
+  fill: #2196f3;
+}
+
+.info .list-info-b:hover a {
+  color: #2196f3;
+}
+
+.info .list-info-b:hover use {
+  fill: #2196f3;
 }
 .list-link-a {
   text-decoration: none;
@@ -132,25 +143,24 @@ ul {
   text-decoration: none;
   color: #757575;
 }
-
-.list-link-a:hover {
-  color: #2196f3;
+.svg-envelope {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
 }
-
-.list-link-b:hover {
-  color: #2196f3;
+.svg-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
 }
 .icon-envelope {
   fill: #757575;
 }
-.icon-envelope:hover {
-  fill: #2196f3;
-}
+
 .icon-phone {
   fill: #757575;
-}
-.icon-phone:hover {
-  fill: #2196f3;
 }
 p {
   margin: 0;
@@ -593,7 +603,7 @@ button:hover {
   fill: #afb1b8;
 }
 
-.icon-insta:hover {
+.inner > .social-link:hover use {
   fill: white;
 }
 .our-clients {
@@ -626,9 +636,9 @@ button:hover {
   height: 92px;
 }
 
-.clients-link:hover {
+/* .clients-link:hover {
   border: 1px solid #2196f3;
-}
+} */
 .yaco,
 .tagline-here,
 .company,
@@ -637,8 +647,13 @@ button:hover {
 .tagline {
   fill: #afb1b8;
 }
-
-.yaco:hover {
+.list-of-clients > li > a:hover {
+  border: 1px solid #2196f3;
+}
+.list-of-clients > li > a:hover use {
+  fill: #2196f3;
+}
+/* .yaco:hover {
   fill: #2196f3;
 }
 .tagline-here:hover {
@@ -655,7 +670,7 @@ button:hover {
 }
 .tagline:hover {
   fill: #2196f3;
-}
+} */
 
 .join-us {
   display: flex;
