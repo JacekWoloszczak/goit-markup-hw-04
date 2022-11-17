@@ -27,6 +27,12 @@ ul {
   height: 79px;
   border-bottom: 1px solid #ececec;
 }
+
+.flex-menu-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .webstudio {
   display: flex;
   align-items: center;
@@ -60,7 +66,7 @@ ul {
 .menu {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
@@ -73,14 +79,17 @@ ul {
   letter-spacing: 0.02em;
   list-style-type: none;
 }
+
 .menu li:first-child {
-  margin-right: 46px;
+  margin-left: 93px;
 }
+
 .menu li:nth-child(2) {
-  margin-right: 46px;
+  margin-left: 46px;
 }
 
 .menu li:last-child {
+  margin-left: 46px;
 }
 .menu li a {
   text-decoration: none;
@@ -388,20 +397,40 @@ button:hover {
 }
 
 .first-lorem {
-  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  padding: 20px 0;
 }
 
 .second-lorem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
 .third-lorem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
 .fourth-lorem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
   padding: 25px 0;
 }
 .lorem {
